@@ -1,0 +1,116 @@
+body 
+
+{ 
+    background-color:blue;
+}
+   
+#main{
+    
+ background-color: #d4d3d3;   
+    
+}
+   .info{
+            
+     background-color: rosybrown;
+                  
+    
+       
+}
+.tm-footer ul li{
+    
+    list-style-type: none;
+}
+
+
+
+   .info:hover{
+            
+     background-color:white;
+       
+}
+#des{
+    
+ font-style: italic;   
+    word-spacing: 2px;
+    
+}     
+
+   .info:active{
+            
+     background-color: aqua;
+       
+}
+
+.myborder{
+    border-width: 10px;
+    border-color: red;
+    border-left-style: dashed;
+    border-right-style: dashed;
+        border-bottom-style: solid;
+    border-top-style: groove;
+    
+}
+#muaz ol{
+    list-style-position: inside;
+}
+
+ul{
+ list-style-type: none;
+     margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: aquamarine;  
+  
+}
+
+ul li{
+   width: 80px;
+    float: left;
+    background-color: aqua;
+
+}
+
+li a{
+   display: block;
+    color: darkcyan;
+    padding: 8px 0 8px 16px; 
+   
+}
+
+li a:hover{
+    
+    background-color: dodgerblue;
+color: white;
+}
+
+.drop-item{
+    
+  display: none;
+    position: relative;
+    color: darkolivegreen;
+     text-align: center;
+    
+}
+.dropdownlist:hover .drop-item{
+    
+ display: block;
+   
+}
+
+#navcontainer
+{
+    position: fixed;
+    background-color: aqua;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+        z-index: 2;
+}
+
+
+
+
+
+
+
