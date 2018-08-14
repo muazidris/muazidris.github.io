@@ -11,7 +11,7 @@ body
 }
    .info{
             
-     background-color: rosybrown;
+     background-color:dodgerblue;
                   
     
        
@@ -43,11 +43,11 @@ body
 
 .myborder{
     border-width: 10px;
-    border-color: red;
-    border-left-style: dashed;
+    border-color:darkblue;
+    border-left-style:dashed;
     border-right-style: dashed;
         border-bottom-style: solid;
-    border-top-style: groove;
+    border-top-style:solid;
     
 }
 #muaz ol{
