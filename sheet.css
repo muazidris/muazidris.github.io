@@ -11,7 +11,7 @@ body
 }
    .info{
             
-     background-color:dodgerblue;
+     background-color:beige;
                   
     
        
@@ -43,7 +43,7 @@ body
 
 .myborder{
     border-width: 10px;
-    border-color:powderblue;
+    border-color:darkgray;
     border-left-style:solid;
     border-right-style:solid;
         border-bottom-style: solid;
