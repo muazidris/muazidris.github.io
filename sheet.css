@@ -1,7 +1,7 @@
 body 
 
 { 
-    background-color:blue;
+    background-color: #d4d3d3;
 }
    
 #main{
@@ -43,9 +43,9 @@ body
 
 .myborder{
     border-width: 10px;
-    border-color:darkblue;
-    border-left-style:dashed;
-    border-right-style: dashed;
+    border-color:powderblue;
+    border-left-style:solid;
+    border-right-style:solid;
         border-bottom-style: solid;
     border-top-style:solid;
     
@@ -62,25 +62,36 @@ ul{
     background-color: aquamarine;  
   
 }
+#navcontainer
+{
+    position: fixed;
+    background-color:darkgray;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60px;
+        z-index: 2;
+}
 
 ul li{
-   width: 80px;
+   width: 200px;
     float: left;
-    background-color: aqua;
+    background-color:darkgray;
 
 }
 
 li a{
    display: block;
-    color: darkcyan;
-    padding: 8px 0 8px 16px; 
+    color:black;
+    padding: 10px 0 8px 16px; 
    
 }
 
 li a:hover{
     
-    background-color: dodgerblue;
+    background-color:dimgray;
 color: white;
+   height: 40px;  
 }
 
 .drop-item{
@@ -97,16 +108,7 @@ color: white;
    
 }
 
-#navcontainer
-{
-    position: fixed;
-    background-color: aqua;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 50px;
-        z-index: 2;
-}
+
 
 
 
