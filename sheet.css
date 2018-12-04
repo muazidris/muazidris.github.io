@@ -9,13 +9,8 @@ body
  background-color: #d4d3d3;   
     
 }
-   .info{
-            
-     background-color:beige;
-                  
-    
-       
-}
+   
+
 .tm-footer ul li{
     
     list-style-type: none;
@@ -42,12 +37,11 @@ body
 }
 
 .myborder{
-    border-width: 10px;
-    border-color:darkgray;
-    border-left-style:solid;
-    border-right-style:solid;
-        border-bottom-style: solid;
-    border-top-style:solid;
+   
+    padding: 20px;
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px;
     
 }
 #muaz ol{
