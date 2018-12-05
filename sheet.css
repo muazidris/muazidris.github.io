@@ -18,11 +18,18 @@ body
 
 
 
-   .info:hover{
-            
-     background-color:white;
-       
+   .myborder:hover{
+     background-color: white;      
 }
+
+.marquee{
+ background-color: darkgray;
+            color: white;
+            padding: 5px;
+            box-shadow: 0 0 15px black;
+            border-radius:20px;
+}
+
 #des{
     
  font-style: italic;   
@@ -42,6 +49,7 @@ body
             margin: 20px;
             border-radius: 20px;
             box-shadow: 0 0 15px;
+
     
 }
 #muaz ol{
@@ -76,7 +84,7 @@ ul li{
 li a{
    display: block;
     color:black;
-    padding: 12px 0 8px 16px; 
+    padding: 10px 0 8px 16px; 
    
 }
 
