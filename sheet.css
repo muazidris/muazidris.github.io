@@ -63,37 +63,9 @@ ul{
     width: 100%; 
   
 }
-#navcontainer
-{
-    position: fixed;
-    background-color:darkgray;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 90px;
-        z-index: 2;
-}
 
-ul li{
-   width: 200px;
-    float: left;
-    background-color:darkgray;
 
-}
 
-li a{
-   display: block;
-    color:black;
-    padding: 10px 0 8px 16px; 
-   
-}
-
-li a:hover{
-    
-    background-color:dimgray;
-color: white;
-   height:70px;  
-}
 
 .drop-item{
     
@@ -113,6 +85,24 @@ color: white;
 
     border-radius: 10px;
 }
+ #memo{
+    background-color: darkgray;
+    position: fixed;
+            border: 2px radius black;
+            text-align: center;
+            padding: 0px;
+      width: 100%;
+            box-shadow: 0 0 15px black;
+            border-radius: 50px; 
+   border-collapse: collapse;
+   height: 70px;
+} 
+#memo td:hover{
+    background-color: gray;
+     border-radius: 50px;
+}
+ 
+
 
 
 
