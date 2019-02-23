@@ -1,0 +1,197 @@
+/* Add Your Styles Here */
+body{
+   font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+/* ------------------- Main Header ----------------- */
+.main-header{
+    background-image: url("img/doctors-2.png");
+    color: white;
+    padding: 15px;
+    background-size: cover;
+    text-align: right;
+    height: 300px;
+    width: 100%;
+}
+
+/* ------------------- Main Navigation ----------------- */
+.main-nav{
+    background-color: blue ;
+    padding: 5px;
+    height: 40px;
+}
+.main-nav a{
+
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    float: right;
+    font-family: 'Tajawal', sans-serif;
+}
+.main-nav a:hover{
+
+    border: solid 1px white;
+}
+.main-nav a.active{
+    background-color: cornflowerblue;
+
+}
+
+/* ----------------- Home News Section -------------- */
+.home-news-section{
+    width: 1100px;
+    margin-left: 150px;
+}
+.home-news-article{
+    border: 2px solid #c703e1;
+    width: 330px;
+    height: 550px;
+    text-align: right;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    font-family: 'Tajawal', sans-serif;
+    color: blue;
+}
+.home-news-article:hover{
+    width: 340px;
+    box-shadow: 0 0 15px blue;
+    background-color: blue;
+    color: white;
+}
+.home-news-article img{
+    width: inherit;
+}
+.home-news-text,h2{
+    padding: 15px;
+}
+
+
+/* ---------------- Break ------------ */
+.break{
+    clear: both;
+}
+
+/* ------------------------ Main News Section ---------------- */
+.main-news-section{
+    width: 1100px;
+    margin: auto;
+}
+.main-news-article h2{
+    background: linear-gradient(to right , blue,cornflowerblue ,blue);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 15px blue;
+    border: solid 2px  white ;
+    font-family: 'Tajawal', sans-serif;
+}
+.zoom{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    overflow: hidden;
+}
+.zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 15px;
+    transition: all 1s;
+}
+.zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+.main-news-article p{
+    text-align: center;
+    font-size: 18px;
+}
+
+/* ------------- Main Footer -------------- */
+.main-footer{
+    background: linear-gradient(to right,lightblue , blue ,lightblue);
+    padding: 10px;
+    text-align: center ;
+    color: white;
+}
+.main-footer a{
+    color: orange;
+}
+
+/* ------------ Gallery Section ---------------- */
+.gallery-section{
+    margin-left: 10px;
+}
+.gallery-article{
+    border: 2px solid black;
+    width: 300px;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 10px;
+}
+.gallery-article:hover{
+    box-shadow: 0 0 15px black;
+}
+.gallery-zoom{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.gallery-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.gallery-zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+.gallery-article figcaption{
+    padding: 10px;
+}
+
+/* ------------------ About Section ----------- */
+.about-section{
+    width: 1100px;
+    margin: auto;
+}
+.about-article{
+    background: black url("img/Doctors 3.jpg") no-repeat scroll bottom;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
+.company-images{
+    text-align: center;
+}
+.company-images img{
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 5px;
+    box-shadow: 0 0 15px black;
+}
+h1{
+
+    font-size: 70px;
+    font-family: 'Tajawal', sans-serif;
+    margin-right: 50px ;
+    margin-top: 10px;
+    color: blue;
+}
+
+/* ------------------ care----------- */
+#fname{color: blue;}
+#lname{color: #c703e1;}
+#gname {color: blue;}
